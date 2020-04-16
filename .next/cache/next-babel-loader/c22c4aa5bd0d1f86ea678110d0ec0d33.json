@@ -1,0 +1,1 @@
+{"ast":null,"code":"import auth0 from '../../lib/auth0';\n\nconst auth0return = async (request, response) => {\n  await auth0.handleCallback(request, response, {\n    redirectTo: '/app'\n  });\n};\n\nexport default auth0return;","map":null,"metadata":{},"sourceType":"module"}

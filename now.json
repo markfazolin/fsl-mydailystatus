@@ -1,0 +1,24 @@
+{
+    "env": {
+        "AUTH0_CLIENTID": "@auth0-clientid",
+        "AUTH0_CLIENTSECRET": "@auth0-clientsecret",
+        "AUTH0_SCOPE": "@auth0-scope",
+        "AUTH0_DOMAIN": "@auth0-domain",
+        "AUTH0_REDIRECTURI": "@auth0-redirecturi",
+        "AUTH0_POSTLOGOUTREDIRECTURI": "@auth0-postlogoutredirecturi",
+        "AUTH0_SESSION_COOKIESECRET": "@auth0-session-cookiesecret",
+        "AUTH0_SESSION_COOKIELIFETIME": "@auth0-session-cookielifetime"
+    },
+    "build": {
+        "env": {
+            "AUTH0_CLIENTID": "@auth0-clientid",
+            "AUTH0_CLIENTSECRET": "@auth0-clientsecret",
+            "AUTH0_SCOPE": "@auth0-scope",
+            "AUTH0_DOMAIN": "@auth0-domain",
+            "AUTH0_REDIRECTURI": "@auth0-redirecturi",
+            "AUTH0_POSTLOGOUTREDIRECTURI": "@auth0-postlogoutredirecturi",
+            "AUTH0_SESSION_COOKIESECRET": "@auth0-session-cookiesecret",
+            "AUTH0_SESSION_COOKIELIFETIME": "@auth0-session-cookielifetime"
+        }
+    }
+}

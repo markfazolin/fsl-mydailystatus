@@ -1,0 +1,1 @@
+{"ast":null,"code":"import auth0 from '../../lib/auth0';\n\nconst logout = async (request, response) => {\n  await auth0.handleLogout(request, response);\n};\n\nexport default logout;","map":null,"metadata":{},"sourceType":"module"}
